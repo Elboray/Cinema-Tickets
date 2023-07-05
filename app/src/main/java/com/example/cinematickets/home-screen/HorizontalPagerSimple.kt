@@ -21,13 +21,15 @@ import com.example.cinematickets.R
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
 fun HorizontalPagerSimple() {
+    val image= listOf(R.drawable.moviecinema,R.drawable.moviecinema,R.drawable.homemovie)
     val pagerState = rememberPagerState()
     HorizontalPager(pageCount = 3, state = pagerState, contentPadding = PaddingValues(horizontal =  50.dp),) {
         Box(modifier = Modifier
             .fillMaxWidth().height(500.dp),
             contentAlignment = Alignment.Center,
+
         ) {
-           CardWithImage(image = R.drawable.moviecinema)
+           CardWithImage(image = listOf(image[it]))
         }
     }
 }

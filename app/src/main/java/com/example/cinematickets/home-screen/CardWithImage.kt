@@ -19,10 +19,11 @@ import com.example.cinematickets.R
 @Composable
 fun CardWithImage(image:List<Int>) {
     val paddingModifier = Modifier.fillMaxSize()
-    Card(shape = RoundedCornerShape(20.dp), elevation = CardDefaults.cardElevation(),modifier = paddingModifier) {
+    Card(shape = RoundedCornerShape(20.dp), elevation = CardDefaults.cardElevation(),modifier = paddingModifier,)
+    {
         Image(
-            painterResource(),
-            contentDescription = "",
+            painterResource(image[0]),
+            contentDescription = null,
             contentScale = ContentScale.Crop,
             modifier = Modifier.fillMaxSize().padding(horizontal = 8.dp)
         )
@@ -32,6 +33,6 @@ fun CardWithImage(image:List<Int>) {
 @Preview
 @Composable
 fun CardWithShapePreview() {
-    CardWithImage(L)
+//    CardWithImage(imageList)
 
 }
