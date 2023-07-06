@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">Cinema Tickets</string>
+    <string name="_100_00">$100.00</string>
+    <string name="_4_tickets">4 tickets</string>
+    <string name="booking">Booking</string>
+    <string name="available">Available</string>
+    <string name="taken">Taken</string>
+    <string name="selected">Selected</string>
+    <string name="fri">Fri</string>
+    <string name="fantastic_beasts_the_secrets_of_dumbledore">Fantastic Beasts: The Secrets of Dumbledore</string>
+    <string name="fantasy">Fantasy</string>
+    <string name="adventure">Adventure</string>
+    <string name="_6_8_10">6.8/10</string>
+    <string name="imdb">IMDb</string>
+    <string name="_63">63%</string>
+    <string name="rotten_tomatoes">Rotten Tomatoes</string>
+    <string name="_4_10">4/10</string>
+    <string name="ign">IGN</string>
+    <string name="professor_albus_dumbledore_knows_the_powerful_dark_wizard_gellert_grindelwald_is_moving_to_seize_control_of_the_wizarding_world_unable_to_stop_him_alone_he_entrusts_magizoologist_newt_scamander_to_lead_an_intrepid_team_of_wizards_and_witches_they_soon_encounter_an_array_of_old_and_new_beasts_as_they_clash_with_grindelwald_s_growing_legion_of_followers">Professor Albus Dumbledore knows the powerful, dark wizard Gellert Grindelwald is moving to seize control of the wizarding world. Unable to stop him alone, he entrusts magizoologist Newt Scamander to lead an intrepid team of wizards and witches. They soon encounter an array of old and new beasts as they clash with Grindelwald\'s growing legion of followers.</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="now_showing">Now Showing</string>
+    <string name="_2h_23m">2h 23m</string>
 </resources>
